@@ -1,0 +1,28 @@
+.mainTable {
+  border-collapse: collapse;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tableContainer {
+  width: 90%;
+  position: relative;
+  left: 5%;
+}
+
+.fixedRow {
+  background-color: beige;
+  height: 4em;
+}
+
+.acountIcon {
+  width: 1em;
+}
+
+.personRow:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.personRow {
+  border: solid 1px rgb(218, 216, 216);
+  height: 3.5em;
+}

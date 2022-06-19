@@ -1,0 +1,68 @@
+.header {
+  text-align: center;
+  position: relative;
+  /* left: 5%; */
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+.title {
+  font-size: 1.3em;
+}
+
+.searchInp {
+  position: relative;
+  left: 5%;
+  width: 30%;
+}
+
+.pageNum {
+  display: inline-block;
+  margin: 0.1%;
+  width: 2em;
+}
+.pageNum:hover {
+  cursor: pointer;
+}
+
+.paginationBtn {
+  font-weight: bold;
+  border-radius: 1em;
+}
+
+.paginationBtn:hover {
+  background-color: rgb(25, 222, 156);
+  transform: scale(1.2);
+}
+
+.paginationControl {
+  display: inline-block;
+  width: 50%;
+}
+
+.qtyContainer {
+  background-color: gray;
+}
+.qtyContainer:hover {
+  cursor: pointer;
+}
+
+.qtySection {
+  display: inline-block;
+  width: 2%;
+  left: 0%;
+  position: relative;
+}
+
+.qty {
+  font-size: 0.8em;
+}
+
+.qtyChoice {
+  display: none;
+  background-color: rgb(180, 180, 180);
+}
+
+.qtyInp {
+  width: 3em;
+}
